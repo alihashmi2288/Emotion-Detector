@@ -1,20 +1,20 @@
-# Emotion Detector Web Application
+# Final Project: Emotion Detector
 
 An AI-based Natural Language Processing (NLP) web application that detects emotions in user-provided text using Watson NLP services and Flask.
 
 ## Project Overview
-This project performs emotion detection on text statements, extracting scores for five primary emotional categories:
+This is the **Final Project** for developing an AI-based web application with Python and Flask. The application analyzes user input text and detects five emotional categories:
 - **Anger**
 - **Disgust**
 - **Fear**
 - **Joy**
 - **Sadness**
 
-It also identifies the **Dominant Emotion** (the emotion with the highest confidence score).
+It also computes the **Dominant Emotion** (the emotion with the highest confidence score).
 
 ## Architecture & Project Structure
 ```text
-Emotion detector/
+oaqjp-final-project-emb-ai/
 ├── EmotionDetection/
 │   ├── __init__.py                # Package initialization exposing emotion_detector
 │   └── emotion_detection.py       # Core emotion detector logic using Watson NLP
@@ -42,8 +42,8 @@ Emotion detector/
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/alihashmi2288/Emotion-Detector.git
-   cd Emotion-Detector
+   git clone https://github.com/alihashmi2288/oaqjp-final-project-emb-ai.git
+   cd oaqjp-final-project-emb-ai
    ```
 2. Install dependencies:
    ```bash
